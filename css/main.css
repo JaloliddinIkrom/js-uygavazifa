@@ -1,0 +1,62 @@
+  
+
+  .container{ 
+
+    width: 100%; 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+  }
+ .title1{ 
+    color: blue;
+    text-align: center; 
+    margin-top: 50px; 
+    
+} 
+
+.text{ 
+
+    color: red; 
+    text-align: center;
+} 
+.form{ 
+
+    display: flex; 
+    flex-direction: column;
+} 
+.input1{  
+     color: red;
+    width: 300px; 
+    padding: 10px; 
+    margin-bottom: 10px;  
+    border-radius: 10px; 
+
+} 
+
+.input2{  
+    color: red;
+   width: 300px; 
+   padding: 10px; 
+   margin-bottom: 10px;  
+   border-radius: 10px; 
+
+} 
+
+.butten{ 
+
+    width: 100px;  
+    height: 30px;
+    padding: 5px 10px; 
+    border-radius: 10px; 
+
+} 
+
+.span{  
+    display: inline-block;
+    color: red;
+    width: 300px; 
+    padding: 10px; 
+    margin-bottom: 10px;  
+    border-radius: 10px; 
+
+}
