@@ -44,25 +44,25 @@
  //}
       
 
- //var elText = document.querySelector('.text'); 
- //var elForm = document.querySelector('.form'); 
-//var elInput1 = document.querySelector('.input1'); 
-//var elInput2 = document.querySelector('.input2'); 
-//var elSpan = document.querySelector('.span');
+ var elText = document.querySelector('.text'); 
+ var elForm = document.querySelector('.form'); 
+var elInput1 = document.querySelector('.input1'); 
+var elInput2 = document.querySelector('.input2'); 
+var elSpan = document.querySelector('.span');
   
 
-//var tex = elText.textContent; 
+var tex = elText.textContent; 
 
-//elForm.addEventListener('submit', function (evt) { 
+elForm.addEventListener('submit', function (evt) { 
  
-  //evt.preventDefault(); 
+  evt.preventDefault(); 
 
-  //var input1 = tex.indexOf(elInput1.value);
-  //var input2 = tex.indexOf(elInput2.value); 
+  var input1 = tex.indexOf(elInput1.value);
+  var input2 = tex.indexOf(elInput2.value); 
 
-  //elSpan.textContent = tex.substring(input1, input2);
+  elSpan.textContent = tex.substring(input1, input2);
 
-//})
+})
 
 
     
